@@ -1,0 +1,16 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Create_a_Web_API__with_ASP.NET_CORE
+build_property.RootNamespace = Create_a_Web_API__with_ASP.NET_CORE
+build_property.ProjectDir = E:\RepNew\CC\Create a Web API  with ASP.NET CORE\Create a Web API  with ASP.NET CORE\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\RepNew\CC\Create a Web API  with ASP.NET CORE\Create a Web API  with ASP.NET CORE
+build_property._RazorSourceGeneratorDebug = 
