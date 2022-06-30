@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\RepNew\\CC\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE.csproj": {}
+    "E:\\Repository\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE.csproj": {}
   },
   "projects": {
-    "E:\\RepNew\\CC\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE.csproj": {
+    "E:\\Repository\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\RepNew\\CC\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE.csproj",
+        "projectUniqueName": "E:\\Repository\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE.csproj",
         "projectName": "Create a Web API  with ASP.NET CORE",
-        "projectPath": "E:\\RepNew\\CC\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE.csproj",
+        "projectPath": "E:\\Repository\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE.csproj",
         "packagesPath": "C:\\Users\\ashraf\\.nuget\\packages\\",
-        "outputPath": "E:\\RepNew\\CC\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE\\obj\\",
+        "outputPath": "E:\\Repository\\Create a Web API  with ASP.NET CORE\\Create a Web API  with ASP.NET CORE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
