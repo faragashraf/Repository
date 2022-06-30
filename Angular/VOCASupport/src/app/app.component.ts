@@ -19,6 +19,7 @@ export class AppComponent implements OnInit {
   messege: string = "";
 
   ngOnInit(): void {
+    localStorage.removeItem("jwtVOCA");
     this.subjectService.currentmessege.subscribe(messege => this.UserName_ = messege)
   }
   constructor(private subjectService: SubjectService,
@@ -26,7 +27,7 @@ export class AppComponent implements OnInit {
 
   logout() {
     Swal.fire({
-      title: 'هل تريد الاستمرار؟',
+      title: 'هل تريد تسجيل الخروج؟',
       icon: 'question',
       iconHtml: '؟',
       confirmButtonText: 'نعم',
@@ -38,9 +39,6 @@ export class AppComponent implements OnInit {
         this.subjectService.changeMessege("")
         localStorage.removeItem("jwtVOCA");
         this.roter.navigate(["/login"])
-      }
-      else {
-        Swal.fire('Any fool can use a computer')
       }
     })
 

@@ -1,3 +1,4 @@
+import { UserComponent } from './component/user-edit/user/user.component';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
@@ -8,6 +9,7 @@ import { LoginComponent } from './component/login/login/login.component';
 const appRoutes: Routes = [
 
   { path: 'login', component: LoginComponent, pathMatch: 'full' },
+  { path: 'user', component: UserComponent, pathMatch: 'full' },
   { path: '', redirectTo: '', pathMatch: 'full' },
 
   

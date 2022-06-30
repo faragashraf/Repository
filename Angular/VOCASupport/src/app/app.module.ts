@@ -8,11 +8,14 @@ import { LoginComponent } from './component/login/login/login.component';
 import { MaterialModule } from './component/material/material/material.module'; 
 import { ReactiveFormsModule } from '@angular/forms'; 
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { UserComponent } from './component/user-edit/user/user.component';
+import { UsersController } from './shared/service-proxies/service-proxies';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +27,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     HttpClientModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  providers: [],
+  providers: [UsersController],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -10,7 +10,7 @@ namespace Create_a_Web_API__with_ASP.NET_CORE.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+
     public class usersController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -26,6 +26,7 @@ namespace Create_a_Web_API__with_ASP.NET_CORE.Controllers
         }
 
         [HttpGet(nameof(GetById))]
+        //[Authorize(Roles ="100")]
         public async Task<IActionResult> GetById(int id)
         {
             var user = await _unitOfWork.Users.GetById(id);
